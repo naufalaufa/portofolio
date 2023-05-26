@@ -7,22 +7,25 @@ import { Link } from "react-router-dom";
 
 function Contact() {
   return (
-    <div class="bg-green-300 p-20  h-96">
-      <h1 class="text-center font-bold text-4xl m-auto ">CONTACT</h1>
-      <div class="flex justify-evenly rounded-md gap-5 sm:w-[400px] p-10 m-auto md:w-[500px] ">
+    <div className="bg-green-300 p-20  h-96">
+      <h1 className="text-center font-bold text-4xl m-auto ">CONTACT</h1>
+      <div className="flex justify-evenly rounded-md gap-5 sm:w-[400px] p-10 m-auto md:w-[500px] ">
         <div>
           <Link to="https://wa.me/6285156802452" target="_blank">
-            <IoLogoWhatsapp size={40} class="hover:scale-150 duration-75" />
+            <IoLogoWhatsapp size={40} className="hover:scale-150 duration-75" />
           </Link>
         </div>
         <div>
           <Link to="https://www.instagram.com/naufallrifqiii/" target="_blank">
-            <AiFillInstagram size={40} class="hover:scale-150 duration-75" />
+            <AiFillInstagram
+              size={40}
+              className="hover:scale-150 duration-75"
+            />
           </Link>
         </div>
         <div>
           <Link to="https://github.com/naufalaufa" target="_blank">
-            <BsGithub size={40} class="hover:scale-150 duration-75" />
+            <BsGithub size={40} className="hover:scale-150 duration-75" />
           </Link>
         </div>
         <div>
@@ -30,7 +33,7 @@ function Contact() {
             to="https://www.linkedin.com/in/naufal-aufa-a7a415257/"
             target="_blank"
           >
-            <BsLinkedin size={40} class="hover:scale-150 duration-75" />
+            <BsLinkedin size={40} className="hover:scale-150 duration-75" />
           </Link>
         </div>
       </div>
