@@ -5,7 +5,7 @@ function Main() {
   return (
     <div className="pt-64 px-10 pb-[600px]">
       <h1 className="text-white text-4xl font-bold sm:text-5xl">
-        Hi! , Welcome To My Portfolio
+        Hi! , Welcome To My Portfolio,
       </h1>
       <div className="text-white text-xl font-bold ">
         <Typed
