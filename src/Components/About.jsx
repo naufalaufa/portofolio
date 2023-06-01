@@ -1,7 +1,6 @@
 import React, { useRef } from "react";
 import logo from "../images/Desain_tanpa_judul-removebg-preview.png";
 import { GrResume } from "react-icons/gr";
-import Typed from "react-typed";
 import pdefas from "file:///C:/Users/NAUFAL/Downloads/pdf_20230525_094745_0000.pdf";
 import { Link } from "react-router-dom";
 
@@ -23,14 +22,7 @@ function About() {
             <p className="text-left ">
               Hi my name is mochamad naufal you can call opal LMAO ,
             </p>
-            <div className="text-black mb-3">
-              <Typed strings={["Front End Developer"]} typeSpeed={150} />
-              <br />
-              <Typed
-                strings={["Interested in Design and Technology"]}
-                typeSpeed={150}
-              />
-            </div>
+            <div className="text-black mb-3"></div>
             <Link
               ref={ref}
               target="_blank"
