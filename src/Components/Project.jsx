@@ -1,6 +1,5 @@
 import React from "react";
 import Netflix from "../images/NETFLIX-NEW-REV.png";
-import { Link } from "react-router-dom";
 
 function Project() {
   return (
@@ -9,13 +8,17 @@ function Project() {
       <div className="sm:flex text-center font-bold ">
         <div className="p-8 ">
           <h1 className="text-left my-5 text-2xl">Netflix Clone</h1>
-          <Link to="https://netflix-clone-naufal.web.app/" target="_blank">
+          <a
+            href="https://netflix-clone-naufal.web.app/"
+            target="_blank"
+            rel="noreferrer"
+          >
             <img
               src={Netflix}
               alt="error"
               className="cursor-pointer hover:scale-110 duration-100"
             />
-          </Link>
+          </a>
           <p className="text-left mt-10 font-extralight">
             Netflix clone project using react js technology, redux, firebase,
             Click image for view project , if there is a warning click details
@@ -24,13 +27,17 @@ function Project() {
         </div>
         <div className="p-8 ">
           <h1 className="text-left my-5 text-2xl">Coming soon</h1>
-          <Link to="https://netflix-clone-naufal.web.app/" target="_blank">
+          <a
+            href="https://netflix-clone-naufal.web.app/"
+            target="_blank"
+            rel="noreferrer"
+          >
             <img
               src={Netflix}
               alt="error"
               className="cursor-pointer hover:scale-110 duration-100 "
             />
-          </Link>
+          </a>
           <p className="text-left mt-10 font-extralight">COMING SOON PROJECT</p>
         </div>
       </div>

@@ -3,7 +3,6 @@ import { IoLogoWhatsapp } from "react-icons/io";
 import { AiFillInstagram } from "react-icons/ai";
 import { BsGithub } from "react-icons/bs";
 import { BsLinkedin } from "react-icons/bs";
-import { Link } from "react-router-dom";
 
 function Contact() {
   return (
@@ -11,30 +10,43 @@ function Contact() {
       <h1 className="text-center font-bold text-4xl m-auto ">CONTACT</h1>
       <div className="flex justify-evenly rounded-md gap-5 sm:w-[400px] p-10 m-auto md:w-[500px] ">
         <div>
-          <Link to="https://wa.me/6285156802452" target="_blank">
+          <a
+            href="https://wa.me/6285156802452"
+            target="_blank"
+            rel="noreferrer"
+          >
             <IoLogoWhatsapp size={40} className="hover:scale-150 duration-75" />
-          </Link>
+          </a>
         </div>
         <div>
-          <Link to="https://www.instagram.com/naufallrifqiii/" target="_blank">
+          <a
+            href="https://www.instagram.com/naufallrifqiii/"
+            target="_blank"
+            rel="noreferrer"
+          >
             <AiFillInstagram
               size={40}
               className="hover:scale-150 duration-75"
             />
-          </Link>
+          </a>
         </div>
         <div>
-          <Link to="https://github.com/naufalaufa" target="_blank">
-            <BsGithub size={40} className="hover:scale-150 duration-75" />
-          </Link>
-        </div>
-        <div>
-          <Link
-            to="https://www.linkedin.com/in/naufal-aufa-a7a415257/"
+          <a
+            href="https://github.com/naufalaufa"
             target="_blank"
+            rel="noreferrer"
+          >
+            <BsGithub size={40} className="hover:scale-150 duration-75" />
+          </a>
+        </div>
+        <div>
+          <a
+            href="https://www.linkedin.com/in/naufal-aufa-a7a415257/"
+            target="_blank"
+            rel="noreferrer"
           >
             <BsLinkedin size={40} className="hover:scale-150 duration-75" />
-          </Link>
+          </a>
         </div>
       </div>
     </div>
